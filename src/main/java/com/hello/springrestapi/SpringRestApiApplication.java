@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringRestApiApplication {
+
 	@GetMapping("/hello")
 	public String hello(){
 		return "Hello my rest API !!!";
